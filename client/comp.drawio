@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-10-20T17:52:50.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ZXEYRyG3ap22Rac245CC" version="22.0.6" type="device">
+  <diagram name="Страница — 1" id="rrN9tCJj_cK9-NwQscs3">
+    <mxGraphModel dx="875" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C4u-wh9Gr0WHMmJXyEN8-1" target="C4u-wh9Gr0WHMmJXyEN8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C4u-wh9Gr0WHMmJXyEN8-1" target="C4u-wh9Gr0WHMmJXyEN8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-1" value="App.jsx &lt;br&gt;(главный компонент)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C4u-wh9Gr0WHMmJXyEN8-2" target="C4u-wh9Gr0WHMmJXyEN8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-2" value="Todolist.jsx&lt;br&gt;(компонент с задачами - содержит переменную состояния с задачами &lt;b&gt;tasks&lt;/b&gt; и функцию изменения переменной с задачами &lt;b&gt;setTasks&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="140" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C4u-wh9Gr0WHMmJXyEN8-4" target="C4u-wh9Gr0WHMmJXyEN8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-4" value="TasksList.jsx&lt;br&gt;(работа со списком задач)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-6" value="EditTask.jsx&lt;br&gt;(модальное окно для редактирования задачи)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-9" value="Props:&amp;nbsp;tasks, setTasks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="274" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-10" value="Props: open, setOpen, task, setTasks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="420" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-12" value="&amp;lt;TasksList tasks={tasks} setTasks={setTasks} /&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-13" value="&lt;div&gt;&amp;lt;EditTask&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;open={editOpen}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;setOpen={setEditOpen}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;task=...&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;setTasks={props.setTasks}&lt;/div&gt;&lt;div&gt;/&amp;gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="380" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-14" value="MainAppBar.jsx&lt;br&gt;(вернее меню)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C4u-wh9Gr0WHMmJXyEN8-16" target="C4u-wh9Gr0WHMmJXyEN8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C4u-wh9Gr0WHMmJXyEN8-16" value="main.jsx&lt;br&gt;(точка монтирования App.jsx + index.html)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
